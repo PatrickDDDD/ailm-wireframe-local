@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  /* Wireframe grid background effect */
+  background-image: radial-gradient(#dee2e6 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Standard scrollbar for wireframe feel */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-left: 1px solid #000;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border: 1px solid #000;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
